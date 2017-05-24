@@ -15,7 +15,7 @@ request(url, function(error, response, html){
             $(".products").filter(function () {
               var data = $(this);
 
-              console.log(data);
+              data.
             })
             // var name, desc, price;
             // var json = { name : "", desc : "", price : ""};
