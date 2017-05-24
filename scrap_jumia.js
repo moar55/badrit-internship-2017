@@ -36,6 +36,7 @@ request(url, function(error, response, html) {
                         $(this).find('ul').each(function() {
                             json.desc += $(this).find('li').text()
                         });
+                        json.price = $(this).find('.price:nth-child(2)').text()
                     })
                     request.post(
                         serverURL+'/api/products',
